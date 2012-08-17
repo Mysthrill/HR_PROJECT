@@ -299,7 +299,117 @@
             isDerivedUnion="false"
             aggregation="None"
             isComposite="false" />
+          <property
+            Id="8f811b4c-dc03-42af-bc78-31005a797c8a"
+            name="Type"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
         </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="edaf4c75-80c8-4c7a-9db9-06d28b3d8d36"
+            name="Create"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="bdf09ffc-d5a0-4600-928b-dcace1c5e91d"
+            name="Update"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="a6175665-494a-49f0-96a3-3c1fb7750dc5"
+            name="Delete"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="3b41e273-8b20-4c45-b14e-733a0a7652b2"
+            name="Search"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="683ed430-bc63-4776-a3a0-4442fa3ef978"
+            name="Insert"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="5818e468-2256-40b3-a0c5-9fed00d5d2b0"
+        name="Client"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="d5d213a1-d8c6-40f3-beb5-86c602c5e1a6"
+            isSubstitutable="false">
+            <classMoniker
+              Id="6d4af1f8-e066-417e-84fc-1973052aa605"
+              LastKnownName="Person"
+              LastKnownLocation="HR_Project.uml" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="78aa416e-c33d-42b8-bca2-f214d83ecc82"
+        name="Employee"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="95a524c2-1d72-4a46-8942-81b25c27df71"
+            isSubstitutable="false">
+            <classMoniker
+              Id="6d4af1f8-e066-417e-84fc-1973052aa605"
+              LastKnownName="Person"
+              LastKnownLocation="HR_Project.uml" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="b8be241b-cc92-444b-8285-4f43b51bdd57"
+        name="Supplier"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="737e81aa-3532-475c-9003-cf205f5944bf"
+            isSubstitutable="false">
+            <classMoniker
+              Id="6d4af1f8-e066-417e-84fc-1973052aa605"
+              LastKnownName="Person"
+              LastKnownLocation="HR_Project.uml" />
+          </generalization>
+        </generalsInternal>
       </class>
     </packageHasNamedElement>
   </packagedElements>

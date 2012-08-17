@@ -3,10 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace DomainObjects
+namespace DomainObjects.HR
 {
-    public class Person
+    class Employee
     {
-
     }
 }

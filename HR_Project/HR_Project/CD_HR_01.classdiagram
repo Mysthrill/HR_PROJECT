@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="39a22e53-87b6-4da2-a962-393b2f929382" name="CD_HR_01" linkedPackageId="4b6eb3f4-4245-4d13-be61-07a13da72cec" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" dslVersion="1.0.0.0" Id="39a22e53-87b6-4da2-a962-393b2f929382" name="CD_HR_01" linkedPackageId="4b6eb3f4-4245-4d13-be61-07a13da72cec" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
   <packagedElements>
     <logicalClassDesignerModelHasTypes>
       <class Id="05a3975f-7b3a-4635-b21c-c4a8b1d40e6b" name="Person" isAbstract="false" isLeaf="false" isActiveClass="false">
@@ -14,7 +14,60 @@
           <property Id="91e87d3d-e082-4684-b937-641c4fd22790" name="FirstName" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="76dc5004-6db8-4a5a-a9d3-7afdbe20cde2" />
           </property>
+          <property Id="8334a73a-9112-463d-ba95-14605964eea2" name="Type" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="8f811b4c-dc03-42af-bc78-31005a797c8a" />
+          </property>
         </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="73f6c7e4-6b3d-4d10-81a7-b99ec719ae4a" name="Create" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="edaf4c75-80c8-4c7a-9db9-06d28b3d8d36" />
+          </operation>
+          <operation Id="94d66508-2955-45ea-932c-384b11a2513d" name="Update" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="bdf09ffc-d5a0-4600-928b-dcace1c5e91d" />
+          </operation>
+          <operation Id="08b4052b-e674-460d-a09b-ff4ae1ee5a1f" name="Delete" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="a6175665-494a-49f0-96a3-3c1fb7750dc5" />
+          </operation>
+          <operation Id="042d92d0-7153-4ca9-a8d3-2f2fa72513c3" name="Search" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="3b41e273-8b20-4c45-b14e-733a0a7652b2" />
+          </operation>
+          <operation Id="733cc3bf-f5c7-418f-aff3-86661891710a" name="Insert" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="683ed430-bc63-4776-a3a0-4442fa3ef978" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="07fb8555-5763-4612-acd5-e5360afa9b60" name="Client" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="5818e468-2256-40b3-a0c5-9fed00d5d2b0" />
+        <generalsInternal>
+          <generalization Id="37c72d63-f1aa-4685-b578-05aa49a8d78c" isSubstitutable="false">
+            <classMoniker Id="05a3975f-7b3a-4635-b21c-c4a8b1d40e6b" LastKnownName="Person" />
+            <elementDefinition Id="d5d213a1-d8c6-40f3-beb5-86c602c5e1a6" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="f606f20a-533e-4b91-81de-c80bfb60f479" name="Employee" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="78aa416e-c33d-42b8-bca2-f214d83ecc82" />
+        <generalsInternal>
+          <generalization Id="91492a63-7104-4ae7-96d9-582d67b866b0" isSubstitutable="false">
+            <classMoniker Id="05a3975f-7b3a-4635-b21c-c4a8b1d40e6b" LastKnownName="Person" />
+            <elementDefinition Id="95a524c2-1d72-4a46-8942-81b25c27df71" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="a2788820-7dfe-4716-8e7e-9da5aaca1f65" name="Supplier" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="b8be241b-cc92-444b-8285-4f43b51bdd57" />
+        <generalsInternal>
+          <generalization Id="42fe4476-28fd-4d10-b951-d4e2094838c7" isSubstitutable="false">
+            <classMoniker Id="05a3975f-7b3a-4635-b21c-c4a8b1d40e6b" LastKnownName="Person" />
+            <elementDefinition Id="737e81aa-3532-475c-9003-cf205f5944bf" />
+          </generalization>
+        </generalsInternal>
       </class>
     </logicalClassDesignerModelHasTypes>
   </packagedElements>
