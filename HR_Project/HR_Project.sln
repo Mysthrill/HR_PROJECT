@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "..\..\DataAcc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainObjects", "DomainObjects\DomainObjects.csproj", "{EAA76604-CD0E-483B-B002-F0684FC1BB38}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelObjects", "ModelObjects\ModelObjects.csproj", "{799C26B7-370B-416B-B329-A1C94ED247AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{EAA76604-CD0E-483B-B002-F0684FC1BB38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EAA76604-CD0E-483B-B002-F0684FC1BB38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EAA76604-CD0E-483B-B002-F0684FC1BB38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{799C26B7-370B-416B-B329-A1C94ED247AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{799C26B7-370B-416B-B329-A1C94ED247AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{799C26B7-370B-416B-B329-A1C94ED247AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{799C26B7-370B-416B-B329-A1C94ED247AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

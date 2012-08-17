@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace DomainObjects.HR
+namespace ModelObjects.HR
 {
-    class Client : Person
+    class Supplier : Person
     {
     }
 }
