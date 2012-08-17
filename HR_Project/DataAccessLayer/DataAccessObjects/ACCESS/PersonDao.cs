@@ -7,5 +7,6 @@ namespace DataAccessLayer.DataAccessObjects.ACCESS
 {
     class PersonDao
     {
+
     }
 }

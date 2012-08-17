@@ -2,12 +2,49 @@
 <layerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="298f4ccb-0520-4599-93f1-c4ac8d1b5374" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/LayerDesigner">
   <layers>
     <layer Id="b5abccc2-b663-4b51-9b88-03980536a689" name="Data Access Layer">
+      <childLayers>
+        <layer Id="0333aae0-e0f2-41b9-a7fb-e9e3ff4dbef7" name="Layer1">
+          <references>
+            <reference Id="2ddbd2c9-39b7-4f6e-8697-90be9a7e1e3f" name="DataAccess">
+              <ArtifactNode Label="DataAccess" Category="CodeSchema_Project" Id="(Assembly=&quot;$(PersonalUri)/GitHub/DataAccess/DbConnection/DataAccess.csproj&quot;)">
+                <Category Ref="CodeSchema_SourceFile" />
+              </ArtifactNode>
+              <ExpandedNode Id="(Assembly=DataAccess)" Label="DataAccess.dll" Category="FileSystem.Category.FileOfType.dll">
+                <LinkCategory Ref="Produces" />
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+            </reference>
+          </references>
+        </layer>
+        <layer Id="603725df-5d95-4919-9b3b-96cda5529475" name="Layer2">
+          <references>
+            <reference Id="5924147f-734f-4be4-b70c-b9e9734642a9" name="DataAccessLayer">
+              <ArtifactNode Label="DataAccessLayer" Category="CodeSchema_Project" Id="(Assembly=&quot;$(PersonalUri)/GitHub/HR_PROJECT/HR_Project/DataAccessLayer/DataAccessLayer.csproj&quot;)">
+                <Category Ref="CodeSchema_SourceFile" />
+              </ArtifactNode>
+              <ExpandedNode Id="(Assembly=DataAccessLayer)" Label="DataAccessLayer.dll" Category="FileSystem.Category.FileOfType.dll">
+                <LinkCategory Ref="Produces" />
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+            </reference>
+          </references>
+        </layer>
+      </childLayers>
       <references>
         <reference Id="8011be23-ce93-4d34-9176-0c59c49afa52" name="DataAccess">
           <ArtifactNode Label="DataAccess" Category="CodeSchema_Project" Id="(Assembly=&quot;$(PersonalUri)/GitHub/DataAccess/DbConnection/DataAccess.csproj&quot;)">
             <Category Ref="CodeSchema_SourceFile" />
           </ArtifactNode>
           <ExpandedNode Id="(Assembly=DataAccess)" Label="DataAccess.dll" Category="FileSystem.Category.FileOfType.dll">
+            <LinkCategory Ref="Produces" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+        <reference Id="c140cdd7-ee8c-4c13-bfe8-23c51e290749" name="DataAccessLayer">
+          <ArtifactNode Label="DataAccessLayer" Category="CodeSchema_Project" Id="(Assembly=&quot;$(PersonalUri)/GitHub/HR_PROJECT/HR_Project/DataAccessLayer/DataAccessLayer.csproj&quot;)">
+            <Category Ref="CodeSchema_SourceFile" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=DataAccessLayer)" Label="DataAccessLayer.dll" Category="FileSystem.Category.FileOfType.dll">
             <LinkCategory Ref="Produces" />
             <LinkCategory Ref="Represents" />
           </ExpandedNode>

@@ -2,8 +2,16 @@
 <layerDiagram dslVersion="1.0.0.0" Id="4eac43ba-d0e6-4bdb-a9e9-7f7d4399c967" absoluteBounds="0, 0, 11, 8.5" name="LD_HR_01">
   <layerModelMoniker Id="298f4ccb-0520-4599-93f1-c4ac8d1b5374" />
   <nestedChildShapes>
-    <layerShape Id="94c8a7ad-aed2-4fd6-96c3-cad36f5dbc8b" absoluteBounds="5.625, 1.125, 2, 0.75" customColor="161, 199, 231">
+    <layerShape Id="94c8a7ad-aed2-4fd6-96c3-cad36f5dbc8b" absoluteBounds="3.625, 0.75, 5.5, 1.5" customColor="161, 199, 231">
       <layerMoniker Id="b5abccc2-b663-4b51-9b88-03980536a689" />
+      <nestedChildShapes>
+        <layerShape Id="34878e58-98f3-43ab-950c-b97e632badbe" absoluteBounds="3.875, 1.125, 2, 0.75" customColor="161, 199, 231">
+          <layerMoniker Id="0333aae0-e0f2-41b9-a7fb-e9e3ff4dbef7" />
+        </layerShape>
+        <layerShape Id="1a7e2638-f496-4cb4-953f-7278500c38f0" absoluteBounds="6.375, 1.125, 2, 0.75" customColor="161, 199, 231">
+          <layerMoniker Id="603725df-5d95-4919-9b3b-96cda5529475" />
+        </layerShape>
+      </nestedChildShapes>
     </layerShape>
     <layerShape Id="15c9b4fa-6f01-453b-a5ee-85c73989894f" absoluteBounds="5.625, 2.125, 2, 0.75" customColor="161, 199, 231">
       <layerMoniker Id="ca0a193b-c175-4b1a-aec0-49728d74a832" />
