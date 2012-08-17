@@ -3,9 +3,14 @@
   <layers>
     <layer Id="b5abccc2-b663-4b51-9b88-03980536a689" name="Data Access Layer">
       <childLayers>
-        <layer Id="0333aae0-e0f2-41b9-a7fb-e9e3ff4dbef7" name="Layer1">
+        <layer Id="f7be892a-68f6-4b4a-add1-bde9f26b6bce" name="Data Access">
+          <dependencyToLayers>
+            <dependencyFromLayerToLayer Id="eac1bdc0-895a-4cc1-bbf4-0e2732cd6ec6" direction="Forward">
+              <layerMoniker Id="0ad0e587-4d9e-4a09-8be6-863d3f1c158c" />
+            </dependencyFromLayerToLayer>
+          </dependencyToLayers>
           <references>
-            <reference Id="2ddbd2c9-39b7-4f6e-8697-90be9a7e1e3f" name="DataAccess">
+            <reference Id="7a087fe7-cdda-40de-b25a-d6ffc056a48c" name="DataAccess">
               <ArtifactNode Label="DataAccess" Category="CodeSchema_Project" Id="(Assembly=&quot;$(PersonalUri)/GitHub/DataAccess/DbConnection/DataAccess.csproj&quot;)">
                 <Category Ref="CodeSchema_SourceFile" />
               </ArtifactNode>
@@ -16,10 +21,15 @@
             </reference>
           </references>
         </layer>
-        <layer Id="603725df-5d95-4919-9b3b-96cda5529475" name="Layer2">
+        <layer Id="482cda79-aeba-42f5-9505-c624a5c3a01a" name="Data Access Objects">
+          <dependencyToLayers>
+            <dependencyFromLayerToLayer Id="308f732f-fabc-4c18-a37c-188ac19a4956" direction="Forward">
+              <layerMoniker Id="f7be892a-68f6-4b4a-add1-bde9f26b6bce" />
+            </dependencyFromLayerToLayer>
+          </dependencyToLayers>
           <references>
-            <reference Id="5924147f-734f-4be4-b70c-b9e9734642a9" name="DataAccessLayer">
-              <ArtifactNode Label="DataAccessLayer" Category="CodeSchema_Project" Id="(Assembly=&quot;$(PersonalUri)/GitHub/HR_PROJECT/HR_Project/DataAccessLayer/DataAccessLayer.csproj&quot;)">
+            <reference Id="e09fef06-8270-4080-9249-b0d2e5d1a023" name="DataAccessObjects">
+              <ArtifactNode Label="DataAccessObjects" Category="CodeSchema_Project" Id="(Assembly=&quot;$(PersonalUri)/GitHub/HR_PROJECT/HR_Project/DataAccessLayer/DataAccessObjects.csproj&quot;)">
                 <Category Ref="CodeSchema_SourceFile" />
               </ArtifactNode>
               <ExpandedNode Id="(Assembly=DataAccessLayer)" Label="DataAccessLayer.dll" Category="FileSystem.Category.FileOfType.dll">
@@ -51,7 +61,18 @@
         </reference>
       </references>
     </layer>
-    <layer Id="ca0a193b-c175-4b1a-aec0-49728d74a832" name="Business Logic layer" />
+    <layer Id="ca0a193b-c175-4b1a-aec0-49728d74a832" name="Business  layer">
+      <childLayers>
+        <layer Id="e2ff9aab-f2aa-4d86-8ecf-aba65653403e" name="Layer1" />
+      </childLayers>
+    </layer>
     <layer Id="3fa4adc3-6aef-40c2-89e6-84a92c5b363b" name="Presentation Layer" />
+    <layer Id="0ad0e587-4d9e-4a09-8be6-863d3f1c158c" name="DataStore">
+      <childLayers>
+        <layer Id="f867477d-d766-4692-abc0-7c7b3f3ef6b8" name="Microsoft Access 2007" />
+        <layer Id="8979da79-6a80-45f4-90eb-0f5a7c4efcc7" name="Oracle 11g R2 Express" />
+        <layer Id="0cbf22ff-3c9e-4195-a245-ad0b13172100" name="SQLSERVER 2012 Express" />
+      </childLayers>
+    </layer>
   </layers>
 </layerModel>
