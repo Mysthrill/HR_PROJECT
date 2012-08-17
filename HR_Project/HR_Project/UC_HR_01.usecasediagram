@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="6ffbfc28-d508-4f90-9ee4-137e4f339faf" name="UC_HR_01" linkedPackageId="131f26e1-53ba-4d91-95d2-b7a21fc1c921" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="18a19dd7-9066-44af-9218-3d6504e4f010">
+      <profileInstance Id="cfbd0f1b-fc90-4361-a98b-93309f9401f9" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="1decc42a-efe1-423c-9532-da3e924e74be">
+      <profileInstance Id="8caaa969-f58f-40ae-ad6e-a7d408fc1d81" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="b086d7ef-9bc5-4825-9d56-b7d20c3f9913" name="VDV" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="9540e1ae-9a0c-4912-b3cd-20a800aaaecf" />
+        <targetEnds>
+          <association Id="6bbbac61-1211-4561-b4b9-5a9de3b81254" isDerived="false" sourceEndRoleName="VDV" targetEndRoleName="Insert Client" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="70fef89e-9fdc-44d2-820e-9a8687156e37" LastKnownName="Create Person" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="eacadc11-0f35-442e-89a4-2f68cde7a9ae" name="VDV" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="1c4b3300-e029-4020-8a2b-691f95266b3e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0cac8581-bba4-4cb2-8a4f-0e5c3fa33a5b" name="Insert Client" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="7ade4c10-9713-4542-b016-83c1621cb41d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="f6ad7625-8a09-4d3e-9b4b-c4bce33449d6" />
+          </association>
+          <association Id="7e95e774-0e33-47a7-8c50-26554e070a58" isDerived="false" sourceEndRoleName="VDV" targetEndRoleName="Delete Client" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="d5210aa6-7b87-4f62-b52b-b705d32c2cad" LastKnownName="Delete Person" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="45bfe6b0-05ee-47c5-866d-4ee26c864d4e" name="VDV" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="4ac2b116-c951-4552-8792-e3256825bb8a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b0808901-51e4-42d9-b137-7c61d9e5198d" name="Delete Client" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="fadd1c4b-f23a-4dd4-97a3-0374bc914f60" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="1b06dd8a-747d-411b-85aa-fad7bc13b0c2" />
+          </association>
+          <association Id="19f9fe30-f017-4b53-8718-c69e2a0a7cf2" isDerived="false" sourceEndRoleName="VDV" targetEndRoleName="Update Client" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="cd88f829-61ba-4fcd-90d2-39e6ec7d191f" LastKnownName="Update Peron" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="77982d84-001e-4312-99d4-947d65d81b42" name="VDV" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="77f4c61d-c7cb-4905-b03c-16b8e029afa1" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2cfae0e0-22c3-4087-a0b5-2907e7c1ff3a" name="Update Client" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="3b6b4bc3-b254-4c7d-9b3e-acd8a2ea3347" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="0da416a4-aa8e-44f9-b55a-8870074d4551" />
+          </association>
+          <association Id="894977e4-677a-48a7-85ed-5e9138805740" isDerived="false" sourceEndRoleName="VDV" targetEndRoleName="Search Person" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="d5f664cd-69f6-4ce3-a45b-03e8edddbbc5" LastKnownName="Search Person" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8a7ee8b1-d6af-4c25-9fb7-a5417de638a6" name="VDV" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="75a850ea-afff-453e-bd8f-15de79a95338" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3006b3c6-0dad-4093-ae83-32da50bad6de" name="Search Person" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="9774ddd5-8986-45cb-9fd3-f4324a49e248" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="56b1c99b-bb7d-43fc-adef-5ec52022bafd" />
+          </association>
+          <association Id="a11fa72d-d9ed-4eaf-9dbc-467a87d8b4c2" isDerived="false" sourceEndRoleName="VDV" targetEndRoleName="Insert Person" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="9f059afc-725d-4654-9dc8-c350d139b744" LastKnownName="Insert Person" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7875d83e-1e34-4281-8be6-14407ad25d55" name="VDV" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="8cf32c0a-d042-4b17-a70f-639b550690b2" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="73276277-825a-4aa0-b074-7b0d2ae8cb12" name="Insert Person" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="b6588be0-5125-415d-9f46-0886f9dc5734" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="581591c0-179a-462b-b56c-ebef77cbb258" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="70fef89e-9fdc-44d2-820e-9a8687156e37" name="Create Person" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="d7f41bcb-6f06-45e4-aeab-6749a9269b04" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="d5210aa6-7b87-4f62-b52b-b705d32c2cad" name="Delete Person" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="f70091d4-b95c-41c9-a57d-d559573f3410" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="cd88f829-61ba-4fcd-90d2-39e6ec7d191f" name="Update Peron" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="47a9672b-9a7e-4243-ac51-c4de2bb96b48" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="d5f664cd-69f6-4ce3-a45b-03e8edddbbc5" name="Search Person" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="a1173ebf-509b-4ab5-9686-7dac3ffcd001" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="9f059afc-725d-4654-9dc8-c350d139b744" name="Insert Person" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="4e713f7e-d51c-48fa-aef1-347f87900322" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="131f26e1-53ba-4d91-95d2-b7a21fc1c921" name="HR_Project">
+    <elementDefinition Id="efd2392f-8b9f-42ec-8ccc-2ec9e9a8f422" />
+  </package>
+</useCaseModelRoot>

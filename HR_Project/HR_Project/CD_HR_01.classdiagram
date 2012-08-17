@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" dslVersion="1.0.0.0" Id="39a22e53-87b6-4da2-a962-393b2f929382" name="CD_HR_01" linkedPackageId="4b6eb3f4-4245-4d13-be61-07a13da72cec" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="d73045a0-34f8-4217-a6e3-09ca14a0bb4a">
+      <profileInstance Id="494e5c15-2198-4153-96ef-b1a7918d8891" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="aa727239-7539-429e-a8d9-31babde9c2f3">
+      <profileInstance Id="88c74556-8b5d-4e1a-b7b4-ea54778c8a49" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="05a3975f-7b3a-4635-b21c-c4a8b1d40e6b" name="Person" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="6d4af1f8-e066-417e-84fc-1973052aa605" />
+        <ownedAttributesInternal>
+          <property Id="b6e030c1-8b6a-4995-ab79-4c000fc74bd5" name="Id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="6f668437-0f21-46c1-98a9-5577c5793b9f" />
+          </property>
+          <property Id="9fbe3952-81da-4d7c-87ab-f4628f8e76cf" name="Name" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="db7b7a37-572e-4989-a6c0-affe14cae1ef" />
+          </property>
+          <property Id="91e87d3d-e082-4684-b937-641c4fd22790" name="FirstName" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="76dc5004-6db8-4a5a-a9d3-7afdbe20cde2" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="4b6eb3f4-4245-4d13-be61-07a13da72cec" name="HR_Project">
+    <elementDefinition Id="efd2392f-8b9f-42ec-8ccc-2ec9e9a8f422" />
+  </package>
+</logicalClassDesignerModel>

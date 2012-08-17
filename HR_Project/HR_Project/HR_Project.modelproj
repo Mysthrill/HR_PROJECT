@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5f80f359-3c70-48a6-8134-5a9914059fc5}</ProjectGuid>
+    <ArchitectureToolsVersion>1.0.0.0</ArchitectureToolsVersion>
+    <Name>HR_Project</Name>
+    <RootNamespace>HR_Project</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v10.0\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" />
+  <ItemGroup>
+    <Content Include="UC_HR_01.usecasediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UC_HR_01.usecasediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>UC_HR_01.usecasediagram</DependentUpon>
+    </Content>
+    <Folder Include="ModelDefinition\" />
+    <Content Include="CD_HR_01.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="CD_HR_01.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>CD_HR_01.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="ModelDefinition\HR_Project.uml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Validate Include="LD_HR_01.layerdiagram">
+      <SubType>Content</SubType>
+    </Validate>
+    <Validate Include="LD_HR_01.layerdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>LD_HR_01.layerdiagram</DependentUpon>
+    </Validate>
+    <Validate Include="LD_HR_01.layerdiagram.suppressions">
+      <SubType>Content</SubType>
+      <DependentUpon>LD_HR_01.layerdiagram</DependentUpon>
+    </Validate>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layerDiagram dslVersion="1.0.0.0" Id="4eac43ba-d0e6-4bdb-a9e9-7f7d4399c967" absoluteBounds="0, 0, 11, 8.5" name="LD_HR_01">
+  <layerModelMoniker Id="298f4ccb-0520-4599-93f1-c4ac8d1b5374" />
+  <nestedChildShapes>
+    <layerShape Id="94c8a7ad-aed2-4fd6-96c3-cad36f5dbc8b" absoluteBounds="5.625, 1.125, 2, 0.75" customColor="161, 199, 231">
+      <layerMoniker Id="b5abccc2-b663-4b51-9b88-03980536a689" />
+    </layerShape>
+    <layerShape Id="15c9b4fa-6f01-453b-a5ee-85c73989894f" absoluteBounds="5.625, 2.125, 2, 0.75" customColor="161, 199, 231">
+      <layerMoniker Id="ca0a193b-c175-4b1a-aec0-49728d74a832" />
+    </layerShape>
+    <layerShape Id="b8dc5e82-9f9a-48fc-9c61-94bd06a5a0ab" absoluteBounds="5.625, 3.125, 2, 0.75" customColor="161, 199, 231">
+      <layerMoniker Id="3fa4adc3-6aef-40c2-89e6-84a92c5b363b" />
+    </layerShape>
+  </nestedChildShapes>
+</layerDiagram>
