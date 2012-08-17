@@ -49,4 +49,10 @@
       <DependentUpon>LD_HR_01.layerdiagram</DependentUpon>
     </Validate>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\DataAccess\DbConnection\DataAccess.csproj">
+      <Name>DataAccess</Name>
+      <Project>{b4cba66c-1f28-4643-bafa-2276d73853d0}</Project>
+    </ProjectReference>
+  </ItemGroup>
 </Project>

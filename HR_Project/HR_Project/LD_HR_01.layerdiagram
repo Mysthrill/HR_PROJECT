@@ -1,7 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="298f4ccb-0520-4599-93f1-c4ac8d1b5374" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/LayerDesigner">
   <layers>
-    <layer Id="b5abccc2-b663-4b51-9b88-03980536a689" name="Data Access Layer" />
+    <layer Id="b5abccc2-b663-4b51-9b88-03980536a689" name="Data Access Layer">
+      <references>
+        <reference Id="8011be23-ce93-4d34-9176-0c59c49afa52" name="DataAccess">
+          <ArtifactNode Label="DataAccess" Category="CodeSchema_Project" Id="(Assembly=&quot;$(PersonalUri)/GitHub/DataAccess/DbConnection/DataAccess.csproj&quot;)">
+            <Category Ref="CodeSchema_SourceFile" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=DataAccess)" Label="DataAccess.dll" Category="FileSystem.Category.FileOfType.dll">
+            <LinkCategory Ref="Produces" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
     <layer Id="ca0a193b-c175-4b1a-aec0-49728d74a832" name="Business Logic layer" />
     <layer Id="3fa4adc3-6aef-40c2-89e6-84a92c5b363b" name="Presentation Layer" />
   </layers>
