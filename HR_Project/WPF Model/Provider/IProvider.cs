@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace ModelObjects.HR
+namespace WPF_Model.Provider
 {
-    class Supplier : Person
+    interface IProvider
     {
     }
 }

@@ -4,6 +4,12 @@
     <logicalClassDesignerModelHasTypes>
       <class Id="05a3975f-7b3a-4635-b21c-c4a8b1d40e6b" name="Person" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="6d4af1f8-e066-417e-84fc-1973052aa605" />
+        <generalsInternal>
+          <generalization Id="ffe98454-3e82-4e7c-a6fa-a93f97619e71" isSubstitutable="false">
+            <classMoniker Id="65000fb2-6352-443b-97a4-631f10dd9317" LastKnownName="HRObject" />
+            <elementDefinition Id="09bffe11-8573-4562-b7b5-23170efd6349" />
+          </generalization>
+        </generalsInternal>
         <ownedAttributesInternal>
           <property Id="b6e030c1-8b6a-4995-ab79-4c000fc74bd5" name="Id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="6f668437-0f21-46c1-98a9-5577c5793b9f" />
@@ -13,9 +19,6 @@
           </property>
           <property Id="91e87d3d-e082-4684-b937-641c4fd22790" name="FirstName" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="76dc5004-6db8-4a5a-a9d3-7afdbe20cde2" />
-          </property>
-          <property Id="8334a73a-9112-463d-ba95-14605964eea2" name="Type" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="8f811b4c-dc03-42af-bc78-31005a797c8a" />
           </property>
         </ownedAttributesInternal>
         <ownedOperationsInternal>
@@ -41,9 +44,9 @@
       <class Id="07fb8555-5763-4612-acd5-e5360afa9b60" name="Customer" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="5818e468-2256-40b3-a0c5-9fed00d5d2b0" />
         <generalsInternal>
-          <generalization Id="37c72d63-f1aa-4685-b578-05aa49a8d78c" isSubstitutable="false">
-            <classMoniker Id="05a3975f-7b3a-4635-b21c-c4a8b1d40e6b" LastKnownName="Person" />
-            <elementDefinition Id="d5d213a1-d8c6-40f3-beb5-86c602c5e1a6" />
+          <generalization Id="887b5d51-b3eb-43a7-915c-dea8fb947343" isSubstitutable="false">
+            <classMoniker Id="65000fb2-6352-443b-97a4-631f10dd9317" LastKnownName="HRObject" />
+            <elementDefinition Id="426e20b3-b941-4169-bcc6-c0a19e450787" />
           </generalization>
         </generalsInternal>
       </class>
@@ -63,11 +66,27 @@
       <class Id="a2788820-7dfe-4716-8e7e-9da5aaca1f65" name="Supplier" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="b8be241b-cc92-444b-8285-4f43b51bdd57" />
         <generalsInternal>
-          <generalization Id="42fe4476-28fd-4d10-b951-d4e2094838c7" isSubstitutable="false">
-            <classMoniker Id="05a3975f-7b3a-4635-b21c-c4a8b1d40e6b" LastKnownName="Person" />
-            <elementDefinition Id="737e81aa-3532-475c-9003-cf205f5944bf" />
+          <generalization Id="54cc46be-9b1c-4741-8208-e47f52ac5302" isSubstitutable="false">
+            <classMoniker Id="65000fb2-6352-443b-97a4-631f10dd9317" LastKnownName="HRObject" />
+            <elementDefinition Id="cd9f6adb-b71a-4e89-8f72-a51092e2ba3a" />
           </generalization>
         </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="eef1a200-a020-452a-a9e5-6c53856c8ffe" name="Contact" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="a5f79ccf-1ad1-4a9a-a295-129ff42914a8" />
+        <generalsInternal>
+          <generalization Id="5a77c48e-a551-4b57-a01f-b92a0d0ef80e" isSubstitutable="false">
+            <classMoniker Id="65000fb2-6352-443b-97a4-631f10dd9317" LastKnownName="HRObject" />
+            <elementDefinition Id="44a99f0f-fff4-4adb-af32-54c4d6efe5c2" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="65000fb2-6352-443b-97a4-631f10dd9317" name="HRObject" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="7f48fae2-f8d2-45a2-8227-770f27840df9" />
       </class>
     </logicalClassDesignerModelHasTypes>
   </packagedElements>

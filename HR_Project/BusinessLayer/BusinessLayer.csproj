@@ -45,9 +45,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DomainObjects\DomainObjects.csproj">
+    <ProjectReference Include="..\DomainObjects\Domain Objects.csproj">
       <Project>{EAA76604-CD0E-483B-B002-F0684FC1BB38}</Project>
-      <Name>DomainObjects</Name>
+      <Name>Domain Objects</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

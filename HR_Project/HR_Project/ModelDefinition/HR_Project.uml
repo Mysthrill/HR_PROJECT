@@ -265,6 +265,16 @@
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="09bffe11-8573-4562-b7b5-23170efd6349"
+            isSubstitutable="false">
+            <classMoniker
+              Id="7f48fae2-f8d2-45a2-8227-770f27840df9"
+              LastKnownName="HRObject"
+              LastKnownLocation="HR_Project.uml" />
+          </generalization>
+        </generalsInternal>
         <ownedAttributesInternal>
           <property
             Id="6f668437-0f21-46c1-98a9-5577c5793b9f"
@@ -291,17 +301,6 @@
           <property
             Id="76dc5004-6db8-4a5a-a9d3-7afdbe20cde2"
             name="FirstName"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
-            Id="8f811b4c-dc03-42af-bc78-31005a797c8a"
-            name="Type"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -364,11 +363,11 @@
         isActiveClass="false">
         <generalsInternal>
           <generalization
-            Id="d5d213a1-d8c6-40f3-beb5-86c602c5e1a6"
+            Id="426e20b3-b941-4169-bcc6-c0a19e450787"
             isSubstitutable="false">
             <classMoniker
-              Id="6d4af1f8-e066-417e-84fc-1973052aa605"
-              LastKnownName="Person"
+              Id="7f48fae2-f8d2-45a2-8227-770f27840df9"
+              LastKnownName="HRObject"
               LastKnownLocation="HR_Project.uml" />
           </generalization>
         </generalsInternal>
@@ -402,15 +401,42 @@
         isActiveClass="false">
         <generalsInternal>
           <generalization
-            Id="737e81aa-3532-475c-9003-cf205f5944bf"
+            Id="cd9f6adb-b71a-4e89-8f72-a51092e2ba3a"
             isSubstitutable="false">
             <classMoniker
-              Id="6d4af1f8-e066-417e-84fc-1973052aa605"
-              LastKnownName="Person"
+              Id="7f48fae2-f8d2-45a2-8227-770f27840df9"
+              LastKnownName="HRObject"
               LastKnownLocation="HR_Project.uml" />
           </generalization>
         </generalsInternal>
       </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="a5f79ccf-1ad1-4a9a-a295-129ff42914a8"
+        name="Contact"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="44a99f0f-fff4-4adb-af32-54c4d6efe5c2"
+            isSubstitutable="false">
+            <classMoniker
+              Id="7f48fae2-f8d2-45a2-8227-770f27840df9"
+              LastKnownName="HRObject"
+              LastKnownLocation="HR_Project.uml" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="7f48fae2-f8d2-45a2-8227-770f27840df9"
+        name="HRObject"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
     </packageHasNamedElement>
   </packagedElements>
   <primitiveType

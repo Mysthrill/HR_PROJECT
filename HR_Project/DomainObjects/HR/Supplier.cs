@@ -5,11 +5,8 @@ using System.Text;
 
 namespace DomainObjects.HR
 {
-    public class Supplier : Person
+    public class Supplier
     {
-        public Supplier()
-        {
-            Type = Convert.ToInt16(PeopleType.Supplier);
-        }
+   
     }
 }

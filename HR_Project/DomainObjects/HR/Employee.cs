@@ -7,9 +7,6 @@ namespace DomainObjects.HR
 {
     public class Employee : Person
     {
-        public  Employee()
-        {
-            Type = Convert.ToInt16(PeopleType.Employee);
-        }
+        
     }
 }

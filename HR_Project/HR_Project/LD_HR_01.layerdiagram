@@ -61,9 +61,10 @@
         </reference>
       </references>
     </layer>
-    <layer Id="ca0a193b-c175-4b1a-aec0-49728d74a832" name="Business  layer">
+    <layer Id="ca0a193b-c175-4b1a-aec0-49728d74a832" name="Service  Layer">
       <childLayers>
-        <layer Id="e2ff9aab-f2aa-4d86-8ecf-aba65653403e" name="Layer1" />
+        <layer Id="e2ff9aab-f2aa-4d86-8ecf-aba65653403e" name="Action Service" />
+        <layer Id="25803376-9521-43f1-85d6-40af1c4aa3ad" name="Image Service" />
       </childLayers>
     </layer>
     <layer Id="3fa4adc3-6aef-40c2-89e6-84a92c5b363b" name="Presentation Layer" />

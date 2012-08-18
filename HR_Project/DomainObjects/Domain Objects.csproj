@@ -44,7 +44,6 @@
     <Compile Include="HR\Employee.cs" />
     <Compile Include="HR\Person.cs" />
     <Compile Include="HR\Supplier.cs" />
-    <Compile Include="HR\PeopleType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
