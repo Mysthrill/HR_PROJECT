@@ -358,7 +358,7 @@
     <packageHasNamedElement>
       <class
         Id="5818e468-2256-40b3-a0c5-9fed00d5d2b0"
-        name="Client"
+        name="Customer"
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">

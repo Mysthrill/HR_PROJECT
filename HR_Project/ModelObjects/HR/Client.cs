@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ModelObjects.HR
 {
-    class Client : Person
+    class Customer : Person
     {
     }
 }

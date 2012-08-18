@@ -5,7 +5,7 @@ using System.Text;
 
 namespace DomainObjects.HR
 {
-    class Employee : Person
+    public class Employee : Person
     {
     }
 }

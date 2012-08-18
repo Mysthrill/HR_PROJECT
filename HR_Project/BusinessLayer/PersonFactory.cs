@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using DomainObjects.HR;
 
-namespace DomainObjects.HR
+namespace BusinessLayer
 {
-    class Client : Person
+    public class PersonFactory : IPeopleFactory
     {
+        
     }
 }

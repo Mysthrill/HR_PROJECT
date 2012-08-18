@@ -38,7 +38,7 @@
       </class>
     </logicalClassDesignerModelHasTypes>
     <logicalClassDesignerModelHasTypes>
-      <class Id="07fb8555-5763-4612-acd5-e5360afa9b60" name="Client" isAbstract="false" isLeaf="false" isActiveClass="false">
+      <class Id="07fb8555-5763-4612-acd5-e5360afa9b60" name="Customer" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="5818e468-2256-40b3-a0c5-9fed00d5d2b0" />
         <generalsInternal>
           <generalization Id="37c72d63-f1aa-4685-b578-05aa49a8d78c" isSubstitutable="false">

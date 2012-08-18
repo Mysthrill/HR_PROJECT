@@ -10,7 +10,7 @@
       </nestedChildShapes>
     </classShape>
     <classShape Id="f2261d2f-394a-4e37-bf17-012a9e27a91e" absoluteBounds="4.875, 3.5, 1.5, 0.90234373509883881" hideQualifiedName="false" increaseHeight="0" customColor="181, 193, 223">
-      <classMoniker Id="07fb8555-5763-4612-acd5-e5360afa9b60" LastKnownName="Client" />
+      <classMoniker Id="07fb8555-5763-4612-acd5-e5360afa9b60" LastKnownName="Customer" />
       <nestedChildShapes>
         <AttributeElementListCompartment Id="9f9afb53-9e89-4d95-9f91-74112053721c" absoluteBounds="4.89, 3.89, 1.4700000000000002, 0.2011718675494194" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
         <OperationElementListCompartment Id="001a723b-b24a-4826-8b4f-a0637158da6d" absoluteBounds="4.89, 4.10117186754942, 1.4700000000000002, 0.2011718675494194" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
@@ -39,11 +39,11 @@
         <classShapeMoniker Id="763b37fa-2d99-4f18-b228-8cf64da222fd" />
       </nodes>
     </generalizationConnector>
-    <classShape Id="536eabba-b3f8-472c-b0b6-8b8a7281e9b9" absoluteBounds="6.875, 3.5, 1.5, 0.92234373509883838" hideQualifiedName="false" increaseHeight="0" customColor="181, 193, 223">
+    <classShape Id="536eabba-b3f8-472c-b0b6-8b8a7281e9b9" absoluteBounds="6.875, 3.5, 1.5, 0.90234373509883881" hideQualifiedName="false" increaseHeight="0" customColor="181, 193, 223">
       <classMoniker Id="a2788820-7dfe-4716-8e7e-9da5aaca1f65" LastKnownName="Supplier" />
       <nestedChildShapes>
-        <AttributeElementListCompartment Id="40e4df34-6f73-41f2-9561-4b028688620d" absoluteBounds="6.89, 3.89, 1.4700000000000002, 0.22117186754941942" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
-        <OperationElementListCompartment Id="105b9589-7c35-4dad-8901-c04e4ca9b78d" absoluteBounds="6.89, 4.1211718675494193, 1.4700000000000002, 0.2011718675494194" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <AttributeElementListCompartment Id="40e4df34-6f73-41f2-9561-4b028688620d" absoluteBounds="6.89, 3.89, 1.4700000000000002, 0.2011718675494194" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="105b9589-7c35-4dad-8901-c04e4ca9b78d" absoluteBounds="6.89, 4.10117186754942, 1.4700000000000002, 0.2011718675494194" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
     <generalizationConnector edgePoints="[(7.625 : 3.5); (7.625 : 2.41796871523062); (5.625 : 2.41796871523062); (5.625 : 2.04296871523062)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="113, 111, 110">
