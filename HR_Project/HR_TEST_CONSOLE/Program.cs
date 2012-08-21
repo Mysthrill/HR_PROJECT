@@ -12,7 +12,7 @@ namespace HR_TEST_CONSOLE
         static void Main(string[] args)
         {
             Person person = new Employee();
-            person.Name = "Cattoor";
+            person.LastName = "Cattoor";
             person.FirstName = "Robby";
 
             IPersonFactory factory = new PersonFactory();
